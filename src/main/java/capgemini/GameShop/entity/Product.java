@@ -6,9 +6,11 @@ public class Product {
     String name;
     Category category;
     String description;
-    String attribute; // Strin or seperate entity?
+    String attribute; // String or seperate entity/enum?
     float priceNett;
     float priceGross;
     String discount; // ??
     String homepage;
+
+
 }

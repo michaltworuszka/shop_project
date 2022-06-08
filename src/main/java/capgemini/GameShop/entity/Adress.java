@@ -1,14 +1,14 @@
 package capgemini.GameShop.entity;
 
 public class Adress {
-    String area;
+    String country;
     String address;
     String state;
     String city;
     String zip;
 
-    public Adress(String area, String address, String state, String city, String zip) {
-        this.area = area;
+    public Adress(String country, String address, String state, String city, String zip) {
+        this.country = country;
         this.address = address;
         this.state = state;
         this.city = city;
@@ -18,12 +18,12 @@ public class Adress {
     public Adress() {
     }
 
-    public String getArea() {
-        return area;
+    public String getCountry() {
+        return country;
     }
 
-    public void setArea(String area) {
-        this.area = area;
+    public void setCountry(String country) {
+        this.country = country;
     }
 
     public String getAddress() {

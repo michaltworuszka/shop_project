@@ -9,6 +9,8 @@ public class User {
     private String email;
     private String password;
 
+    private Adress adress;
+
     private List<Order> orderList;
 
     public User(String id, String firstName, String lastName, String email, String password, List<Order> orderList) {

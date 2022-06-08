@@ -2,9 +2,9 @@ package capgemini.GameShop.entity;
 
 public class Order {
 
-    String id;
-    String userId;
-    String date;
-    String total;
+    long id;
+    User user;
+    String date; //change later for LocalDate or smth like that
+    double totalValue;
     String status;
 }

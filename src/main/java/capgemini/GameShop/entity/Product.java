@@ -1,4 +1,4 @@
-package capgemini.onlineshop.entity;
+package capgemini.GameShop.entity;
 
 public class Product {
 

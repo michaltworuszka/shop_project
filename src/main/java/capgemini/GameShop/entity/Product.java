@@ -1,27 +1,28 @@
 package capgemini.GameShop.entity;
 
+import java.util.List;
+
 public class Product {
 
     String id;
     String name;
     Category category;
     String description;
-    String attribute; // String or seperate entity/enum?
-    float priceNett;
-    float priceGross;
-    String discount; // ??
-    String homepage;
+    List<Attribute> attributes;
+    Double priceNett;
+    Double priceGross;
 
-    public Product(String id, String name, Category category, String description, String attribute, float priceNett, float priceGross, String discount, String homepage) {
+    public Product(String id, String name, Category category, String description, List<Attribute> attributes, Double priceNett, Double priceGross) {
         this.id = id;
         this.name = name;
         this.category = category;
         this.description = description;
-        this.attribute = attribute;
+        this.attributes = attributes;
         this.priceNett = priceNett;
         this.priceGross = priceGross;
-        this.discount = discount;
-        this.homepage = homepage;
+    }
+
+    public Product() {
     }
 
     public String getId() {
@@ -56,45 +57,27 @@ public class Product {
         this.description = description;
     }
 
-    public String getAttribute() {
-        return attribute;
+    public List<Attribute> getAttributes() {
+        return attributes;
     }
 
-    public void setAttribute(String attribute) {
-        this.attribute = attribute;
+    public void setAttributes(List<Attribute> attributes) {
+        this.attributes = attributes;
     }
 
-    public float getPriceNett() {
+    public Double getPriceNett() {
         return priceNett;
     }
 
-    public void setPriceNett(float priceNett) {
+    public void setPriceNett(Double priceNett) {
         this.priceNett = priceNett;
     }
 
-    public float getPriceGross() {
+    public Double getPriceGross() {
         return priceGross;
     }
 
-    public void setPriceGross(float priceGross) {
+    public void setPriceGross(Double priceGross) {
         this.priceGross = priceGross;
     }
-
-    public String getDiscount() {
-        return discount;
-    }
-
-    public void setDiscount(String discount) {
-        this.discount = discount;
-    }
-
-    public String getHomepage() {
-        return homepage;
-    }
-
-    public void setHomepage(String homepage) {
-        this.homepage = homepage;
-    }
-
-
 }

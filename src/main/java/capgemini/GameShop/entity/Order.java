@@ -6,5 +6,5 @@ public class Order {
     User user;
     String date; //change later for LocalDate or smth like that
     double totalValue;
-    String status;
+    OrderStatus orderStatus;
 }

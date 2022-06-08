@@ -4,15 +4,15 @@ import java.util.List;
 
 public class Product {
 
-    String id;
-    String name;
-    Category category;
-    String description;
-    List<Attribute> attributes;
-    Double priceNett;
-    Double priceGross;
+    private Long id;
+    private String name;
+    private Category category;
+    private String description;
+    private List<Attribute> attributes;
+    private Double priceNett;
+    private Double priceGross;
 
-    public Product(String id, String name, Category category, String description, List<Attribute> attributes, Double priceNett, Double priceGross) {
+    public Product(Long id, String name, Category category, String description, List<Attribute> attributes, Double priceNett, Double priceGross) {
         this.id = id;
         this.name = name;
         this.category = category;
@@ -25,11 +25,11 @@ public class Product {
     public Product() {
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

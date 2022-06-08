@@ -65,6 +65,14 @@ public class User {
         this.password = password;
     }
 
+    public Adress getAdress() {
+        return adress;
+    }
+
+    public void setAdress(Adress adress) {
+        this.adress = adress;
+    }
+
     public List<Order> getOrderList() {
         return orderList;
     }

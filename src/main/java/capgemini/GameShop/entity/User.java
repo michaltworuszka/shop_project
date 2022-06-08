@@ -3,13 +3,13 @@ package capgemini.GameShop.entity;
 import java.util.List;
 
 public class User {
-    String id;
-    String firstName;
-    String lastName;
-    String email;
-    String password;
+    private String id;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String password;
 
-    List<Order> orderList;
+    private List<Order> orderList;
 
     public User(String id, String firstName, String lastName, String email, String password, List<Order> orderList) {
         this.id = id;

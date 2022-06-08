@@ -1,11 +1,11 @@
 package capgemini.GameShop.entity;
 
 public class Adress {
-    String country;
-    String address;
-    String state;
-    String city;
-    String zip;
+    private String country;
+    private String address;
+    private String state;
+    private String city;
+    private String zip;
 
     public Adress(String country, String address, String state, String city, String zip) {
         this.country = country;

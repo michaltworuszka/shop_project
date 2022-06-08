@@ -2,11 +2,11 @@ package capgemini.GameShop.entity;
 
 public class Order {
 
-    long id;
-    User user;
-    String date; //change later for LocalDate or smth like that
-    double totalValue;
-    OrderStatus orderStatus;
+    private long id;
+    private User user;
+    private String date; //change later for LocalDate or smth like that
+    private double totalValue;
+    private OrderStatus orderStatus;
 
     public long getId() {
         return id;

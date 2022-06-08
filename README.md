@@ -1,0 +1,3 @@
+# shop_project
+Capgemini group practice project of online shop Made By Michał Tworuszka, Oskar Hanke, Paweł Manowski
+...

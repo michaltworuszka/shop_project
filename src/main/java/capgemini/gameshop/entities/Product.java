@@ -12,7 +12,7 @@ public class Product {
     private double priceNett;
     private double priceGross;
 
-    public Product(Long id, String name, Category category, String description, List<Attribute> attributes, Double priceNett, Double priceGross) {
+    public Product(Long id, String name, Category category, String description, List<Attribute> attributes, double priceNett, double priceGross) {
         this.id = id;
         this.name = name;
         this.category = category;
@@ -65,7 +65,7 @@ public class Product {
         this.attributes = attributes;
     }
 
-    public Double getPriceNett() {
+    public double getPriceNett() {
         return priceNett;
     }
 
@@ -73,7 +73,7 @@ public class Product {
         this.priceNett = priceNett;
     }
 
-    public Double getPriceGross() {
+    public double getPriceGross() {
         return priceGross;
     }
 

@@ -9,8 +9,8 @@ public class Product {
     private Category category;
     private String description;
     private List<Attribute> attributes;
-    private Double priceNett;
-    private Double priceGross;
+    private double priceNett;
+    private double priceGross;
 
     public Product(Long id, String name, Category category, String description, List<Attribute> attributes, Double priceNett, Double priceGross) {
         this.id = id;

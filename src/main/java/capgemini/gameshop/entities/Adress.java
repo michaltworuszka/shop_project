@@ -1,4 +1,4 @@
-package capgemini.GameShop.entity;
+package capgemini.gameshop.entities;
 
 public class Adress {
     private String country;

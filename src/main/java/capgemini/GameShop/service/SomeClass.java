@@ -1,4 +1,4 @@
-package capgemini.GameShop.service;
+package capgemini.gameshop.service;
 
 public class SomeClass {
 }

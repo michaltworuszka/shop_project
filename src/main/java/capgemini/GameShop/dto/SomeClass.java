@@ -1,4 +1,4 @@
-package capgemini.GameShop.dto;
+package capgemini.gameshop.dto;
 
 public class SomeClass {
 }

@@ -1,4 +1,4 @@
-package capgemini.GameShop.mapper;
+package capgemini.gameshop.mapper;
 
 public class SomeClass {
 }
